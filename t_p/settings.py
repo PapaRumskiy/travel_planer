@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 import os
 from dotenv import load_dotenv
 from pathlib import Path
-import rest_framework
 
 load_dotenv()
 
@@ -43,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'travel',
+    'rest_framework',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
